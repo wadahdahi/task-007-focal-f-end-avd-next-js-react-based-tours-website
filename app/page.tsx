@@ -9,7 +9,7 @@ import WelcomeToOurSite from "./components/sections/WelcomeToOurSite";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col gap-[123px] w-full h-full">
+    <div className="flex flex-col gap-[123px] w-screen h-full">
       <HomeHero />
       <OurPopularDestinations />
       <WelcomeToOurSite />

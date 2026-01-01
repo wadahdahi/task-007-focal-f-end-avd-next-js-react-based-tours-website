@@ -7,7 +7,7 @@ import LanguageButton from "./buttons/LanguageButton";
 
 const Header = () => {
   return (
-    <header className="flex 2xl:flex-row w-screen h-fit px-[10%] py-[20px] justify-between items-center bg-[#ffffff20] fixed">
+    <header className="flex 2xl:flex-row z-100 absolute top-0 w-screen h-fit px-[10%] py-[20px] justify-between items-center bg-[#ffffff20]">
       <Image
         src="/logo/logo.png"
         alt=""

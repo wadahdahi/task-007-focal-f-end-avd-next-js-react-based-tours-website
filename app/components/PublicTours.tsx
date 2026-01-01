@@ -4,9 +4,10 @@ import Image from "next/image";
 
 const PublicTours = () => {
   return (
-    <div className="flex flex-col sm:flex-row gap-3.5 bg-[#ffffff] px-3 py-4 justify-between items-center rounded-tr-xl rounded-bl-xl rounded-br-xl">
-      <div className="flex flex-col sm:grid sm:grid-cols-3 gap-0 sm:gap-2 md:gap-4 w-full justify-between items-start sm:items-center divide-y sm:divide-y-0 sm:divide-x divide-blue-300/30">
-        <div className="flex flex-col px-4">
+    <div className="flex flex-col sm:flex-row gap-3.5 bg-[#ffffff] px-3 py-4 justify-between items-start rounded-tr-xl rounded-bl-xl rounded-br-xl">
+      <div className="flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 xl:flex xl:flex-row gap-0 sm:gap-2 w-full justify-between items-start
+      sm:items-center divide-y sm:divide-y-0 sm:divide-x divide-blue-300/30">
+        <div className="flex flex-col w-full h-full px-4">
           <label className="flex flex-row gap-1.75" htmlFor="people">
             <Image
               src="/icons/search-box/people.png"
@@ -27,7 +28,7 @@ const PublicTours = () => {
           </label>
         </div>
 
-        <div className="flex flex-col px-4">
+        <div className="flex flex-col w-full h-full px-4">
           <label className="flex flex-row gap-1.75" htmlFor="date">
             <Image
               src="/icons/search-box/date.png"
@@ -44,7 +45,7 @@ const PublicTours = () => {
           </label>
         </div>
 
-        <div className="flex flex-col px-4">
+        <div className="flex flex-col w-full h-full px-4">
           <label className="flex flex-row gap-1.75" htmlFor="time">
             <Image
               src="/icons/search-box/time.png"
@@ -61,7 +62,7 @@ const PublicTours = () => {
           </label>
         </div>
 
-        <div className="flex flex-col px-4">
+        <div className="flex flex-col w-full h-full px-4">
           <label className="flex flex-row gap-1.75" htmlFor="tour">
             <Image
               src="/icons/search-box/tour.png"
@@ -80,7 +81,7 @@ const PublicTours = () => {
           </label>
         </div>
 
-        <div className="flex flex-col px-4">
+        <div className="flex flex-col w-full h-full px-4">
           <label className="flex flex-row gap-1.75" htmlFor="transport">
             <Image
               src="/icons/search-box/car.png"

@@ -17,7 +17,7 @@ const inactiveClass = "bg-[#ffffff40] text-white";
 
 const TabsHeader = ({ active, onChange }: TabsHeaderProps) => {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row w-full h-full">
       <button
         className={`${base} ${
           active === "public" ? activeClass : inactiveClass
